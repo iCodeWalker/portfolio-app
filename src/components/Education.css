@@ -1,0 +1,62 @@
+.education {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.education > h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-family: cursive;
+}
+.education__container {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.education__graduation {
+  padding: 20px;
+  background-color: rgba(16, 16, 27, 0.22);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.education__higher {
+  padding: 20px;
+  background-color: rgba(16, 16, 27, 0.22);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.education__secondary {
+  padding: 20px;
+
+  background-color: rgba(16, 16, 27, 0.22);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.education__header {
+  color: rgb(177, 235, 235);
+  text-align: center;
+  font-size: 26px;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.education__description {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.education__class__of {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: cursive;
+  color: antiquewhite;
+  margin: 3px;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.home {
+  height: 80vh;
+  background-color: rgb(30, 30, 90);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+  color: white;
+}
+
+.home__left {
+  width: 40%;
+  align-self: center;
+  font-size: 18px;
+}
+
+.home__left > p {
+  line-height: 1.8;
+  line-break: normal;
+}
+
+.home__left > h1 {
+  margin: 15px;
+  margin-left: 0px;
+}
+
+.home__right {
+  margin: 20px;
+}
+
+.home__right > img {
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 40px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}

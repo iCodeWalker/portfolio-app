@@ -1,0 +1,51 @@
+.experience {
+  margin: 5px;
+}
+.experience > h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: cursive;
+  margin-top: 100px;
+}
+
+.experience__container {
+  margin: 30px;
+}
+
+.company__details {
+  height: 45%;
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  margin: 70px auto;
+  border-bottom: 1px wheat solid;
+  border-right: 1px wheat solid;
+}
+.company__name {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.company__position {
+  text-align: left;
+  color: rgb(243, 236, 197);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.company__work_description {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.company__work__duration {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}

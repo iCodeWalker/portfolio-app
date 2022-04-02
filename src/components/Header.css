@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(24, 22, 22, 0.76);
+  position: fixed;
+  top: 0;
+  color: white;
+}
+
+.header__left {
+  display: flex;
+  margin: 10px;
+  margin-left: 10px;
+  align-items: center;
+  color: white;
+}
+
+.header__left > h1 {
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header__left > p {
+  font-size: 19px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header__right {
+  margin-right: 10px;
+  color: white;
+}
+
+.header__right > p {
+  font-size: 19px;
+  padding: 10px;
+  cursor: pointer;
+}
