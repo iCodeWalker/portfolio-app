@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import "./App.css";
+import Form from "./pages/form";
 
 function App() {
   const contactDiv = useRef();
@@ -19,7 +20,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Header onHireClick={handleHireClick} />
+      {/* <Header onHireClick={handleHireClick} />
 
       <Home />
 
@@ -39,7 +40,8 @@ function App() {
         }}
       />
 
-      <Footer />
+      <Footer /> */}
+      <Form />
     </div>
   );
 }
