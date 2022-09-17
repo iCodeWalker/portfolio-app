@@ -4,7 +4,7 @@ import "./Card.css";
 
 function Card({ title, description, bgImage, name }) {
   const [background, setBackground] = useState(
-    "linear-gradient(whitesmoke, rgb(105, 105, 230))"
+    "linear-gradient(whitesmoke,rgb(104, 188, 228)"
   );
 
   const handleHover = () => {
@@ -14,7 +14,7 @@ function Card({ title, description, bgImage, name }) {
   };
 
   const handleHoverOut = () => {
-    setBackground("linear-gradient(whitesmoke, rgb(105, 105, 230))");
+    setBackground("linear-gradient(whitesmoke, rgb(104, 188, 228)");
   };
   console.log(background);
   return (

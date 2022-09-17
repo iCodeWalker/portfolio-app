@@ -1,185 +1,203 @@
-
-
-h1 {
-    color: whitesmoke;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px;
-    margin-bottom: 50px;
+.form__h1 {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+  margin-bottom: 50px;
 }
 
 .form__container {
-    margin-top: 50px;
-
+  margin-top: 50px;
 }
 .form__container > h1,
 .form__container > p {
-    text-align: center;
-    color: aliceblue;
-    font-style: italic;
-    font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    margin-bottom: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .form__container > p {
-    font-style: normal;
-    font-weight: normal;
-    font-family: none;
-    font-weight: 20px;
-    color: azure;
-    
+  font-style: normal;
+  font-weight: normal;
+  font-family: none;
+  font-weight: 20px;
+  color: azure;
 }
 
-.form__introduction  {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-} 
+.form__introduction {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
 .form__introduction > label {
-    width: 300px;
+  width: 300px;
 }
 
 textarea {
-    margin: 15px;
-    padding: 2px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
+  margin: 15px;
+  padding: 2px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
 }
 
 .form__introduction > label > input {
-    margin: 15px;
-    padding: 2px;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
-} 
+  margin: 15px;
+  padding: 2px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
+}
 
 .form__know__technologies {
-    margin: 10px;
-    
+  margin: 10px;
 }
 
 .form__know__technologies__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    padding-left: 200px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 200px;
 }
 .col-1 {
-   
-    
 }
 .col-2 {
-    
 }
 
 .form__know__technologies__container > div > input {
-    margin: 15px;
-    padding: 2px;
-    padding-left:5px ;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
+  margin: 15px;
+  padding: 2px;
+  padding-left: 5px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
 }
 
-.form__app__build{
-    margin: 10px;
-    
-    display: flex;
-    flex-direction: column;
+.form__app__build {
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
 }
 .form__app__build__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__app__build__container > label {
-    width: 300px;
+  width: 300px;
 }
 
 .form__app__build__container > div > label > input {
-    margin: 15px;
-    padding: 2px;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
+  margin: 15px;
+  padding: 2px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
 }
 
-.form__contact__me {
-    display: flex;
-    flex-direction: column;
+.form__contact__me > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form__contact__me > label {
-    width: 400px;
+.form__contact__me__label {
+  width: 400px;
+  text-align: left;
 }
 
-.form__contact__me >label > input {
-    margin: 15px;
-    padding: 2px;
-    width: 600px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
+.form__contact__me__input {
+  margin: 15px;
+  margin-top: 2px;
+  padding: 5px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
 }
 
-.form__education{
-    display: flex;
-    flex-direction: column;
+.form__education {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.form__education__container > div> label > input {
-    margin: 15px;
-    padding: 2px;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
+.form__education__container > div > label > input {
+  margin: 15px;
+  padding: 2px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
 }
 
-.form__companies__workedwith,
 .form__companies__workedwith__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.form__companies__workedwith__container > label {
-    width:300px;
-}
-.form__companies__workedwith__container > label > input {
-    margin: 15px;
-    padding: 2px;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    background-color: rgba(16, 16, 27, 0.719);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    color: white;
 
+.form__companies__workedwith__container__label {
+  width: 400px;
+  text-align: left;
+}
+.form__companies__workedwith__container__input {
+  margin: 15px;
+  margin-top: 2px;
+  padding: 2px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(16, 16, 27, 0.719);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  color: white;
+}
+.form__submit__btn__container {
+  display: flex;
+  justify-content: center;
+}
+.form__submit__btn {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: rgb(33, 116, 224);
+  color: aliceblue;
+  margin: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-color: rgb(33, 116, 224);
+  border-radius: 10px;
+  cursor: pointer;
 }
