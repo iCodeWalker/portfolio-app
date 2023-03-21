@@ -1,6 +1,6 @@
 .skills {
-  height: 100vh;
   background-color: rgb(104, 188, 228);
+  padding: 80px;
 }
 
 .skills > h1 {

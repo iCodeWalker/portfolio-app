@@ -11,10 +11,15 @@ function Header({ onHireClick }) {
     const skills = document.querySelector(".skills");
     skills.scrollIntoView({ behavior: "smooth", alignToTop: true });
   };
+
+  const handleHome = () => {
+    const home = document.querySelector(".home");
+    home.scrollIntoView({ behavior: "smooth", alignToTop: true });
+  };
   return (
     <div className="header">
       <div className="header__left">
-        <h1>Vaibhav Kadwey</h1>
+        <h1 onClick={handleHome}>Vaibhav Kadwey</h1>
         <p onClick={handlePastWork}>Past Works</p>
         <p onClick={handleSkills}>Skills</p>
       </div>
